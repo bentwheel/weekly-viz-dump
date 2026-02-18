@@ -1,0 +1,34 @@
+# ── Raw data (large files, re-fetchable) ─────────────────────────────────────
+data/raw/
+
+# ── Python virtual environments ───────────────────────────────────────────────
+.venv/
+venv/
+env/
+.env/
+
+# ── Python bytecode ───────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+
+# ── Build / packaging artifacts ───────────────────────────────────────────────
+dist/
+build/
+*.egg-info/
+
+# ── Output images (regenerable from data + scripts) ──────────────────────────
+output/
+
+# ── Editor / OS junk ─────────────────────────────────────────────────────────
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ── Jupyter (if used for exploration) ────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb

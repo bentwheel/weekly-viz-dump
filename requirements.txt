@@ -1,0 +1,17 @@
+# Mount Rainier Visitation Visualization
+# Pin to minor versions so the project stays reproducible.
+# Install: pip install -r requirements.txt
+# Or with uv: uv pip install -r requirements.txt
+
+# ── HTTP & HTML parsing ───────────────────────────────────────────────────────
+requests>=2.31.0          # HTTP client (R equiv: httr2 / curl)
+beautifulsoup4>=4.12.0    # HTML parser (R equiv: rvest)
+lxml>=5.0.0               # Fast HTML/XML backend used by pandas.read_html()
+
+# ── Data manipulation ─────────────────────────────────────────────────────────
+pandas>=2.1.0             # DataFrames (R equiv: dplyr + tidyr + readr)
+numpy>=1.26.0             # Numerical arrays (R equiv: base vectors + matrixStats)
+
+# ── Visualization ─────────────────────────────────────────────────────────────
+matplotlib>=3.8.0         # Plotting (R equiv: ggplot2, but procedural)
+Pillow>=10.0.0            # Image I/O support for matplotlib PNG backend
